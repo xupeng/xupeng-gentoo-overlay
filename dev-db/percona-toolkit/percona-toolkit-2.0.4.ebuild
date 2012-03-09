@@ -16,6 +16,6 @@ KEYWORDS="x86 ~x86 amd64 ~amd64 ~x64-macos"
 IUSE=""
 
 DEPEND="dev-perl/DBD-mysql
-		dev-perl/TermReadKey
-		perl-core/Time-HiRes"
+	dev-perl/TermReadKey
+	perl-core/Time-HiRes"
 RDEPEND="${DEPEND}"
