@@ -4,6 +4,11 @@ Xupeng's Gentoo Overlay
 How to use this overlay
 -----------------------
 
+ 1. Install `layman` with `git` support, skip to step 2 if you have already done this before
+
+        $ sudo echo "app-portage/layman git" >> /etc/portage/package.use
+        $ sudo emerge layman
+
  1. Edit `/etc/layman/layman.cfg`, add this line to `overlays`:
 
         https://raw.github.com/xupeng/xupeng-gentoo-overlay/master/overlays.xml
