@@ -10,7 +10,7 @@ SRC_URI="http://nardcore.org/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 amd64"
+KEYWORDS="amd64 x86 ~amd64 ~x64-macos ~x86"
 IUSE=""
 
 DEPEND=""
@@ -19,5 +19,6 @@ RDEPEND="${DEPEND}"
 src_install() {
 	insinto /usr/bin
 	doins src/ctunnel
+	fperms 755 /usr/bin/ctunnel
 	doman ctunnel.1
 }
