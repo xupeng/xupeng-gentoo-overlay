@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<layman>
+        <overlay type="git" name="xupeng"
+						src="git://github.com/xupeng/xupeng-gentoo-overlay.git"
+            contact="xupeng@xupeng.me">
+						<link>https://github.com/xupeng/xupeng-gentoo-overlay</link>
+            <description>
+                Xupeng's gentoo overlay
+            </description>
+        </overlay>
+</layman>
+
