@@ -4,7 +4,7 @@ Xupeng's Gentoo Overlay
 How to use this overlay
 -----------------------
 
- 1. Edit /etc/layman/layman.cfg, add this line to `overlays`:
+ 1. Edit `/etc/layman/layman.cfg`, add this line to `overlays`:
 
         https://raw.github.com/xupeng/xupeng-gentoo-overlay/master/overlays.xml
     
