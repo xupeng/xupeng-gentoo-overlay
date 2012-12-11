@@ -8,12 +8,12 @@ DESCRIPTION="Highly efficient file backup system based on the git packfile forma
 HOMEPAGE="https://github.com/apenwarr/bup"
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://github.com/apenwarr/${PN}/tarball/${P/_/-} -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
 else
 	inherit git-2
 	EGIT_REPO_URI="git://github.com/apenwarr/bup.git"
-	KEYWORDS=""
 fi
+
+KEYWORDS="~amd64 amd64 ~x86 x86 ~x64-macos x64-macos"
 
 LICENSE="LGPL-2"
 SLOT="0"
